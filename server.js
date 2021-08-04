@@ -3,8 +3,8 @@ const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 dotenv.config();
 const { graphqlHTTP } = require('express-graphql');
-const { buildSchema } = require('graphql');
-
+const schema = require('./graphql/schema');
+const{ buildSchema } = require('graphql');
 const {connectDB} = require("./db");
 const app = express();
 const cors = require('cors');
@@ -16,7 +16,11 @@ app.use(cors());
 app.use(express.json());
 
 
-
+app.use("/graphql",graphqlHTTP({
+    schema: schema,
+    graphiql: true,
+})
+)
     
 app.get('/', (req, res) => {
     res.send("Working");
