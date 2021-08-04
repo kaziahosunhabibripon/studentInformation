@@ -1,0 +1,6 @@
+{
+    "env":{
+        "MONGO_USER":"Ripondb",
+        "MONGO_PASS":"Ripon4236"
+    }
+}
