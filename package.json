@@ -1,7 +1,7 @@
 {
   "name": "student-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h3> Graphql Api building with the help of following libraries</h3> <ul>     <li>Graphql </li>     <li> Apollo server </li>     <li>express </li>     <li>nodejs  </li>     <li>Javascript </li>     <li>mongoDB  </li>     <li>Mongoose </li> </ul>",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -30,5 +30,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaziahosunhabibripon/studentInformation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaziahosunhabibripon/studentInformation/issues"
+  },
+  "homepage": "https://github.com/kaziahosunhabibripon/studentInformation#readme"
 }
