@@ -7,7 +7,7 @@ const GraphQLEmail =require('graphql-type-email');
 dotenv.config();
 const typeDefs = require('./typeDefs');
 const resolvers = require('./resolvers');
-const PORT = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 const cors = require('cors');
 
 // Database connected
@@ -32,6 +32,6 @@ const startServer = async (req, res) => {
     app.use((req, res) => {
         res.send("Working with Apollo express server");
     })
-    app.listen(PORT,()=>console.log(`Server Working on port ${PORT}`));
+    app.listen(process.env.PORT || port,()=>console.log(`Server Working on port ${port}`));
 }
 startServer();
