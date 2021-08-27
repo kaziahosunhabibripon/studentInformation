@@ -9,4 +9,5 @@
     <li>Javascript </li>
     <li>mongoDB  </li>
     <li>Mongoose </li>
+    <li> Heroku cli </li>
 </ul>
