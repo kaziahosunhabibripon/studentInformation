@@ -1,6 +1,6 @@
 # studentInformation
 # student-backend-server
-<h3>Server backend technology I used to make it</h3>
+<h3> Graphql Api building with the help of following libraries</h3>
 <ul>
     <li>Graphql </li>
     <li> Apollo server </li>

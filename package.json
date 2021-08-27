@@ -22,6 +22,7 @@
     "express-graphql": "^0.12.0",
     "graphql": "^15.5.1",
     "graphql-type-email": "^0.1.0",
+    "heroku": "^7.59.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.8",
     "prompt": "^1.1.0",
